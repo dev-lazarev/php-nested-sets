@@ -27,14 +27,14 @@ interface IDataBaseWrapper
 
     public function primaryKey();
 
-    public function findOne($query, $options=[]);
+    public function findOne($query, $options = []);
 
-    public function find($query, $options=[]);
+    public function find($query, $options = []);
 
-    public function insert($row, $options=[]);
+    public function insert($row, $options = []);
 
-    public function update($query, $row, $options=[]);
+    public function update($query, $row, $options = []);
 
-    public function remove($query, $options=[]);
+    public function remove($query, $options = []);
 
 }
